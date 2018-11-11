@@ -20,6 +20,6 @@ public class showData extends AppCompatActivity {
         Intent intent = getIntent();
 
         userName = intent.getStringExtra("USERNAME");
-        tv_showData.setText(userName);
+        tv_showData.append(userName);
     }
 }
