@@ -1,9 +1,11 @@
 package com.example.dilumdesilva.androiddummies;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class showData extends AppCompatActivity {
 
@@ -22,4 +24,7 @@ public class showData extends AppCompatActivity {
         userName = intent.getStringExtra("USERNAME");
         tv_showData.append(userName);
     }
+
+
+
 }
